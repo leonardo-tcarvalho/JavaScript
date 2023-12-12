@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Informação de Nacionalidade</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="descobrir" onclick="calcular()">
+    <div id="res"></div>
+    <div id="resa"></div>
+    <script>
+        function calcular(){
+            var pais = document.getElementById('pais').value.toUpperCase();
+            var res = document.querySelector('div#res')
+            var resa = document.querySelector('div#resa')
+            if (pais === 'brasil'){
+                res.innerHTML = '<p>Você é Brasileiro<p>'
+            }else{
+                res.innerHTML = '<p>Você é Estrangeiro<p>'
+            }
+            resa.innerHTML = `Seu pais de origem é <strong>${pais}</strong>`
+        }
+    </script>
+</body>
+</html>
