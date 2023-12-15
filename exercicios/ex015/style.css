@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(114, 138, 114);
+}
+section {
+    background-color: rgb(158, 182, 158);
+    margin: auto;
+    padding-top: 1px;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+}
+h1 {
+    color: rgb(53, 77, 53);
+    font-size: large;
+    text-align: center;
+    padding-top: 50px;
+}
+div#bloco1 {
+    background-color: rgb(87, 133, 87);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+div#bloco2 {
+    background-color: rgb(87, 133, 87);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+p {
+    color: rgb(211, 231, 204);
+}
