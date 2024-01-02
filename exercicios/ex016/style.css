@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(84, 48, 104);
+}
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+section {
+    background-color: rgb(142, 117, 175);
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+div {
+    display: inline;
+    align-items: center;
+    margin-bottom: 15px;
+}
+footer {
+    display: flex;
+    text-align: center;
+}
