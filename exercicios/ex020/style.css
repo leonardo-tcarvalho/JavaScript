@@ -1,0 +1,27 @@
+body {    
+    background-color: rgb(87, 58, 114);
+}
+section {
+    background-color: rgb(87, 58, 114);
+}
+header {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+div.principal {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 60%;
+    padding: 30px;
+}
+select#flista {
+    width: 100px;
+    height: 70px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
